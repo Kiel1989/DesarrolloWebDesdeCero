@@ -1,0 +1,65 @@
+html{
+	font-size: 100%;
+}
+/*Selector universal (funciona con todos los elementos)*/
+/** {
+	
+	color:red;
+}*/
+
+/*Selector de elemento*/
+h1, .h1{
+	font-family: Arial, Helvetica, sans-serif;
+	color: maroon;
+	font-size: 24px;
+}
+
+h2, .h2{
+	font-family: Arial, Helvetica, sans-serif;
+	color: maroon;
+	font-size: 16px;
+	font-size: 1rem; /*Fallback (respaldo para cierto navegadores) */
+}
+
+.background-pink {
+	background-color: pink;
+}
+
+.artible{
+
+}
+
+	.article__header{
+		font-family: Arial, Helvetica, sans-serif;
+		color:green;
+	}
+
+	.article--footer{
+		background-color: blue;
+	}
+
+/*Selector de id*/
+#topbar{
+	/*Conjunto de reglas*/
+
+}
+
+/*Selector de clase*/
+.article-header{
+	font-family: Arial, Helvetica, sans-serif;
+	color: maroon;
+}
+
+/*
+	filosofia DRY
+	Don't repeat yourselft
+
+	Interaccion (javascript)
+	Presentación (css)
+
+	selector preferencial es el de clase por la reutilización de clases
+
+	utilizar lo menos posible selectores de id
+
+	Progressive en
+ */

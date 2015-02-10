@@ -4,31 +4,49 @@
 	<!--encabezado (etiquetas que usa el navegador) -->
 	<meta charset="UTF-8">
 	<title>FrontPlatzi</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
 	<!-- contenido del documento -->
-	<nav>
-		<ul>
-			<li><a href="#">Inicio</a></li>
-			<li><a href="#">Contacto</a></li>
-			<li><a href="#">Deportes</a></li>
-			<li><a href="#"></a></li>
-		</ul>
-	</nav>
+	<!-- movil first (iniciando desde el tampaño de dispositvo móvil) -->
+	<div class="topbar background-pink" id="js-topbar">
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Contacto</a></li>
+				<li><a href="#">Deportes</a></li>
+				<li><a href="#">Sucesos</a></li>
+			</ul>
+			<ul>
+				<li><a href="#">Login</a></li>
+				<li><a href="#">Registro</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+	</div>
 	<header>
-		<h2>FrontPlatzi</h2>
+		<h1 class="h2">FrontPlatzi</h1>
+		<h2 class="h1">Subtitulo</h2>
 	</header>
 	<section>
 		<header></header>
-		<article>
+		<article class="article">
 			<header>
-				<h3>Titulo articulo</h3>
+				<h3 class="article__header">Titulo articulo</h3>
 			</header>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<p class="background-pink">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
 			<aside>
-				
+				<!-- liks a redes sociales -->
 			</aside>
+			<footer class="article__footer">
+				<!-- footer del articulo -->
+			</footer>
 		</article>
 	</section>
+	<footer>
+		<!-- pie de pagina -->
+	</footer>
 </body>
 </html>
