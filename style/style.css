@@ -25,7 +25,7 @@ h2, .h2{
 	background-color: pink;
 }
 
-.artible{
+.article{
 
 }
 
@@ -37,6 +37,31 @@ h2, .h2{
 	.article--footer{
 		background-color: blue;
 	}
+
+li[data-RobotOwner="Koji Kabuto"]{
+	/*Selector de atibuto*/
+	background-color: olive;
+	color:white;
+}
+
+li[data-RobotOwner="Sayaka Yumi"]{
+	background-color: brown;
+	color:white;
+}
+
+input[type="email"]:focus:invalid{
+	background:red;
+}
+
+.toggle:checked ~ .checked {
+	/*Elementos hermanos */
+	background-color:olive;
+}
+.checked {
+	width:100px;
+	height: 100px;
+	background-color: puru;
+}
 
 /*Selector de id*/
 #topbar{

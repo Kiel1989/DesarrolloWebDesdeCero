@@ -1,0 +1,76 @@
+body{
+}
+
+h1{
+	color: maroon;
+}
+
+h2 {
+	color: maroon;
+}
+
+.img{
+	width:200px;
+	height: 200px;
+}
+
+.container{
+	align-items: center;
+	background: peru;
+	border: 2px solid black;
+
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+  	margin-bottom: 10px;
+
+  	justify-content: space-around;
+  	
+}
+.container-left{
+	border: 2px solid black;
+
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+  	margin-bottom: 10px;
+
+  	justify-content: flex-start;
+  	align-items: center;
+}
+
+.container-right{
+	border: 2px solid black;
+
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+  	margin-bottom: 10px;
+
+  	justify-content: flex-end;
+  	align-items: center;
+}
+
+.container-between{
+	border: 2px solid black;
+
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+  	margin-bottom: 10px;
+
+  	justify-content: space-between;
+  	align-items: center;
+  	margin-bottom: 10px;
+}
+
+.divicion{
+}
