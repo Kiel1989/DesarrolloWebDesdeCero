@@ -19,4 +19,37 @@ flexbox
 	*display: -moz-flex;
 	*display: -ms-flexbox;
 
+JAVASCRIPT
+	Rest
+		GET
+			Consulta datos
+		POST
+			Registra un nuevo dato
+		PUT
+			Actualiza registro
+		DELETE
+			Elemina registro
+
+		Codigos 
+		200 >> Todo fue OK
+		300 >> El contenido está en otro sitio y serpa redirigido
+		403 >> Acceso prohibido a restringido
+		404 >> El recurso no existe
+		500 >> Error interno del servidor
+
+	DOM (document object model)
+		Nodo raiz <html>
+			<head>
+			<body> 
+		BOM
+			history
+			geolocalizacion
+		Ajax
+			Asincronous javascript xml
+
+			Medio de comunicacion contra el servidor, gmail fue uno de los primeros sitios en implemetar esta funcionalidad
+
+		JQuery
+			Libreria extienda javascript
+
 

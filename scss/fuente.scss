@@ -1,0 +1,152 @@
+html{
+	font-family: 'Roboto Slab', serif;
+	font-size: 110%;
+}
+@media all and (max-width: 400px){
+	/*Desde cero hasta 400px*/
+	html{
+		font-size: 80%;
+	}
+}
+body{
+	background-color: rgb(162,221,231);
+	padding:0;
+	margin: 0;
+}
+
+input[type="submit"]{
+	-webkit-appearance:none;
+
+}
+.btn{
+	display: inline-block;
+	line-height: 1.2;
+	text-align: center;
+	border: 1px solid #16210b;
+	background-color: #ff4842;
+	color: white;
+	font-size: .6rem;
+
+
+}
+
+.main-header{
+	text-align:center;
+	background-color: rgb(70,96,119);
+	color:white;
+	padding: 4em;
+}
+
+	.main-header h1{
+		margin:0;
+
+	}
+	.main-header h2{
+		margin: 0;
+		font-size: 1rem;
+		font-weight: normal;
+	}
+
+	@media all and (min-width: 400px){
+		.main-header{
+			text-align: left;
+			background-color: rgb(33,41,59);
+		}
+
+	}
+
+	@media all and( main-width:500px){
+		.main-header{
+			text-align: left;
+		}
+	}
+
+	@media all and (orientation: landscape){
+		.main-header{
+			background-color: white;
+			color: black;
+		}
+	}
+	.search{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: ms-flexbox;
+		display: flex;
+		padding: 8px;
+	}
+
+	.search__text{
+		width: 100%;
+	}
+
+	.card{
+		position: relative;
+		height: 30vh;
+		width: 100vh;
+		font-family: 'Roboto Slab', serif;
+		color: white;
+		padding:1em;
+		text-shadow: 0 0 3px black;
+		margin-bottom: 8px;
+		background-size: cover;
+	}
+
+		.card__title{
+			margin: 0;
+			text-align: center;
+			font-size: 2rem;
+
+		}
+
+		.card__date{
+			font-size: .7em;
+			text-align: center;
+			margin: 0;
+		}
+
+		.card__date::after, .card__date::before{
+			content: " - ";
+		}
+
+		.card__info{
+			position: absolute;
+			bottom:8px;
+			left: 8px;
+			text-align: center;
+			background-color: red;
+		}
+
+		.card__image{
+			display: block;
+		}
+
+		.card__temp{
+			display: block;
+			font-size: 3.5rem;
+			line-height: 1
+		}
+
+		.card__mint::before{
+			content: "min:; ";
+		}
+		.card__maxt::before{
+			content : "max: ";
+		}
+
+	.card[data-ciudad="valencia"]{
+		background-image: url("../img/valencia.jpg");
+
+	}
+
+	.card[data-ciudad="mountanview"]{
+		background-image: url("../img/mv.jpg");
+	}
+
+	@media all and (max-width: 25em){
+		.card[data-ciudad="valencia"]{
+		background-image: url("../img/valencia-small.png");
+			background-size: contain;
+			background-position: center;
+		}
+	}
