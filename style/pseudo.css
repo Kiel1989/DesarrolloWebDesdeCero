@@ -1,0 +1,52 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.weather-card{
+	background-color: #80
+}
+/*
+
+ 	pseudo elementos
+	Pseudo clases
+	:active
+	:checked
+	:default
+	:dir()
+	:disabled
+	:empty
+	:first
+	:first-child
+	:first-of-type
+	:fullscreen;
+	:focus;
+	:hover;
+	:indeterminate;
+	:in-range;
+	:invalid;
+	:lang;
+	:last-child;
+	:last-of-type;
+	:left;
+	:link;
+	:not()
+	:nth-child();
+	:nth-last-child();
+	:nth-of-type();
+	:only:child;
+	:only-of-type
+	:optional;
+	:out-of-range;
+	:read-only;
+	:read-write;
+	:required;
+	:right;
+	:root
+	:scope;
+	:target;
+	:valid;
+	:visited;
+
+
+ */

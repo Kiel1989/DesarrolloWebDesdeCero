@@ -1,0 +1,22 @@
+Antes en maquetacion
+
+Float
+	*Dificultad para organizar
+	*El Posicionamiento visual depende del markup
+	*No puedes centrar
+	*No controlas las alturas en sistemas de columas
+
+table
+	*display:table
+		-display:table-cell
+		-display:table-row
+		-display:table-caption
+
+flexbox
+	*diplay:flex
+	*displa: -webkit-box;
+	*display: -webkit-flex;
+	*display: -moz-flex;
+	*display: -ms-flexbox;
+
+
