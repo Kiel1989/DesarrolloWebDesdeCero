@@ -1,62 +1,50 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-	<!--encabezado (etiquetas que usa el navegador) -->
-	<meta charset="UTF-8">
-	<title>FrontPlatzi</title>
-	<link rel="stylesheet" type="text/css" href="style/style.css">
+  <meta charset="UTF-8">
+  <title>Platzi Weather</title>
+  <link rel="stylesheet" href="style/fuente.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<input type="email" required/>
 
-	<input type="checkbox" class="toggle"><div class="checked"></div>
-	<!-- contenido del documento -->
-	<!-- movil first (iniciando desde el tampaño de dispositvo móvil) -->
-	<ul>
-			
-		<li data-RobotOwner="Koji Kabuto">Mazinger</li>
-		<li data-RobotOwner="Sayaka Yumi">Aphroite</li>
-		<li data-RobotOwner="Nuke">Boss</li>
-	</ul>
-	<div class="topbar background-pink" id="js-topbar">
-		<nav>
-			<ul>
-				<li><a href="#" data->Inicio</a></li>
-				<li><a href="#">Contacto</a></li>
-				<li><a href="#">Deportes</a></li>
-				<li><a href="#">Sucesos</a></li>
-			</ul>
-			<ul>
-				<li><a href="#">Login</a></li>
-				<li><a href="#">Registro</a></li>
-				<li><a href="#">Contacto</a></li>
-			</ul>
-		</nav>
-	</div>
-	<header>
-		<h1 class="h2">FrontPlatzi</h1>
-		<h2 class="h1">Subtitulo</h2>
-	</header>
-	<section>
-		<header></header>
-		<article class="article">
-			<header>
-				<h3 class="article__header">Titulo articulo</h3>
-			</header>
-				<p class="background-pink">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-			<aside>
-				<!-- liks a redes sociales -->
-			</aside>
-			<footer class="article__footer">
-				<!-- footer del articulo -->
-			</footer>
-		</article>
-	</section>
-	<footer>
-		<!-- pie de pagina -->
+  <header class="main-header">
+    <h1>Platzi Weather</h1>
+    <h2>An awesome way to see how we burn by global warming</h2>
+  </header>
 
-	</footer>
+  <div class="loader">Geolocalizando tu posición, por favor espere...</div>
+
+  <form action="" class="search">
+    <input type="text" data-input="cityAdd" class="search__text" placeholder="Agregar una nueva ciudad">
+    <input type="submit" data-button="add" class="search__btn btn" value="Añadir una nueva ciudad">
+    <button data-saved-cities class="search__btn btn">Ver ciudades</button>
+  </form>
+
+  <main class="cards-group">
+    <template id="template--city">
+      <div class="card">
+        <header class="card__header">
+          <h3 data-city class="card__title"></h3>
+          <h4 data-time class="card__time"></h4>
+        </header>
+        <div class="card__info">
+          <img data-icon src="" alt="" class="card__image">
+          <span data-temp="max" class="card__maxt"></span>
+          <span data-temp="min" class="card__mint"></span>
+          <span data-temp="current" class="card__temp"></span>
+        </div>
+      </div>
+    </template>
+  </main>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/fuentes.js"></script>
+
+<script type="text/javascript">
+  (function*(skd;ldk))
+
+
+</script>
 </body>
 </html>
